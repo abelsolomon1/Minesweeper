@@ -132,26 +132,30 @@ Als Spieler möchte ich die Möglichkeit haben, Felder mit Flaggen zu markieren,
 
 #### UserStorie9
 
+Als Spieler möchte ich die anzahl übrigen Minen sehen, damit ich weiss wie viele ich noch finden muss bis ich gewonnen habe.
+
 ##### Akzeptanzkriterien
 
-    1.
+    1. Das Spiel soll eine Zahl angeben, welche runter geht wenn man eine Flagge setzt.
 
-    2.
+    2. Die Zahl soll direkt aktualisiert werden beim setzten der Flagge. 
 
-    3.
+    3. Die Zahl soll wahrheitsgetreu, also der Spielfeld grösse angepasst sein
 
-    4.
+    4. Das Spiel soll die übrige Anzahl Minen bei einem verlorenem Spiel auch am Ende         anzeigen        
 
 ---
 
 #### UserStorie10
 
+Als Spieler möchte ich die Möglichkeit haben das Spiel zurückzusetzten, damit falls ich nicht weiter komme, das ich einen Neustart machen kann.
+
 ##### Akzeptanzkriterien
 
-    1.
+    1. Die Tastenangabe dafür soll sich im Menü finden.
 
-    2.
+    2. Der Spieler soll beliebige Male das Spiel neustarten können.
 
-    3.
+    3. Jedes mal beim Neustart soll das Spielfeld neu generiert werden, damit die Minen         nicht an den gleichen Orten sind.
 
-    4.
+    4. Beim Neustarten soll es die Möglichkeit geben, wieder die         Grösse/Schwierigkeitsstufe anzupassen.
