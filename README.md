@@ -1,3 +1,2 @@
 # ArchitekturTestMinesweeper
 
-Hallo
