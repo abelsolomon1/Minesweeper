@@ -16,6 +16,12 @@ Als Spieler möchte ich die Möglichkeit haben, die Feldgrösse auszuswählen, d
 
     4. Das Spiel soll drei unterschiedlich schwere Modi haben.(Einfach, Mittel, Schwer)
 
+**Tasks**
+
+- [ ]  Feldgrösse muss implementiert werden mit Funktionen die gefordert sind
+
+- [ ]  Anzeige der Bomben für das jeweilige Schwierigkeitsgrad implementieren
+
 ---
 
 #### UserStorie2
@@ -31,6 +37,12 @@ Als Spieler möchte ich die Möglichkeit haben, meine gebrauchte Spielzeit zu se
     3. Die Stopuhr soll auch während des Spieles angezeigt werden.
 
     4. Die Stopuhr soll im Sekundentakt aktualisiert werden.
+
+**Tasks**
+
+- [ ] Stoppuhr implementieren mit richtigen Funktionen
+
+- [ ] Stoppuhr während des Spieles anzeigen lassen.
 
 ---
 
@@ -48,6 +60,14 @@ Als Spieler möchte ich die Möglichkeit haben, Spielzüge Rückgängig zu mache
 
     4. Das Spiel gibt die Möglichkeit Rückgängig zu machen erst dann frei, wenn eine         Mine getroffen wurde.
 
+**Tasks**
+
+- [ ] Einen Stack erstellen für die Undo Funktion
+
+- [ ] Undo Funktion gemäss eingabe "R" aufrufen lassen
+
+- [ ] Funktion erst dann geben lassen wenn "Game over" angezeigt wird
+
 ---
 
 #### UserStorie4
@@ -64,6 +84,14 @@ Als Spieler möchte ich die Möglichkeit haben jederzeit ein Menü aufzurufen, d
 
     4. Das Menü soll durch eine Taste aufgerufen werden.
 
+**Tasks**
+
+- [ ] Menu erstellen die mit einer Taste aufgerufen werden kann
+
+- [ ] Kurzanleitung für das Spiel erstellen und Tastenkombinationen überlegen
+
+- [ ] Highscore speichern und auch im Menu anzeigen lassen
+
 ---
 
 #### UserStorie5
@@ -74,11 +102,19 @@ Als Spieler möchte ich die Möglichkeit haben, meinen aktuellen Highscore zu se
 
     1. Während dem Spiel soll neben dem jetztigen Score auch der Highscore angezeigt         werden.
 
-    2. Der Highscore soll auch im Mneü angezeigt werden.
+    2. Der Highscore soll auch im Menü angezeigt werden.
 
     3. Der Highscore soll aktualisiert werden, sobald der alte übertroffen wurde.
 
     4. Wenn der Highscore übertroffen wurde soll eine Meldung kommen.
+
+**Tasks**
+
+- [ ] Score (Zeit)implementieren und anzeigen lassen
+
+- [ ] Stack für einen Highscore überschreiben lassen falls man einen neuen Highscore hat
+
+- [ ] Anzeige "Neuer Highscore" erstellen
 
 ---
 
@@ -96,6 +132,16 @@ Als Spieler möchte ich die Möglichkeit haben, das Spiel zu pausieren, damit di
 
     4. Bei erneutem Drücken der Taste, soll dann das Spiel weitergehen und die Zeit         weiterlaufen.
 
+**Tasks**
+
+- [ ] Pausentaste implementieren (Taste P)
+
+- [ ] "P" jederzeit aufrufbar machen können
+
+- [ ] Timer stoppen Funktion erstellen
+
+- [ ] Timer laufen lassen Funktion erstellen
+
 ---
 
 #### UserStorie7
@@ -111,6 +157,16 @@ Als Spieler möchte ich die Möglichkeit haben, jederzeit nachlesen zu können, 
     3. Die Taste soll im Menü festgelegt sein.
 
     4. In den Regeln soll genau beschrieben sein welche Taste für was gebraucht wird         und wie das Spiel zu spielen ist.
+
+**Tasks**
+
+- [ ] Funktion erstellen damit das Menu am anfang des Speils angezeigt werden kann
+
+- [ ] Funktion damit das Menu nach einer gewissen Zeit wieder verschwindet.
+
+- [ ] Regeln für Tasten ausdenken.
+
+- [ ] Taste um das Menu aufzurufen erstellen
 
 ---
 
@@ -128,6 +184,14 @@ Als Spieler möchte ich die Möglichkeit haben, Felder mit Flaggen zu markieren,
 
     4. Die Flaggen sollen ein klar identifizier bares Zeichen verwenden.
 
+**Tasks**
+
+- [ ]  Taste für das Markieren von Flaggen implementieren.
+
+- [ ] Menubeschreibung der Regelung von der Taste der Flagge hinzufügen
+
+- [ ] Anzeigen lassen ob ein Feld markiert wurde oder nicht
+
 ---
 
 #### UserStorie9
@@ -144,6 +208,10 @@ Als Spieler möchte ich die anzahl übrigen Minen sehen, damit ich weiss wie vie
 
     4. Das Spiel soll die übrige Anzahl Minen bei einem verlorenem Spiel auch am Ende         anzeigen        
 
+**Tasks**
+
+- [ ]  Funktion erstellen die die Anzeige für die Anzahl der gesetzten Flaggen reduziert
+
 ---
 
 #### UserStorie10
@@ -152,10 +220,22 @@ Als Spieler möchte ich die Möglichkeit haben das Spiel zurückzusetzten, damit
 
 ##### Akzeptanzkriterien
 
-    1. Die Tastenangabe dafür soll sich im Menü finden.
+    1. Die Tastenangabe dafür soll sich im Menü befinden.
 
     2. Der Spieler soll beliebige Male das Spiel neustarten können.
 
     3. Jedes mal beim Neustart soll das Spielfeld neu generiert werden, damit die Minen         nicht an den gleichen Orten sind.
 
     4. Beim Neustarten soll es die Möglichkeit geben, wieder die         Grösse/Schwierigkeitsstufe anzupassen.
+
+**Tasks**
+
+- [ ] Restart button implementieren die das Spiel zurücksetzt
+
+- [ ] Zurücksetzung des Feldes implementieren
+
+- [ ] Anzahl der Mienen auf höchstanzahl sezten (je nach Spielgrösse unterschiedlich)
+
+- [ ] Funktion aufrufen für die Auswahl der Spielgrösse
+
+---
