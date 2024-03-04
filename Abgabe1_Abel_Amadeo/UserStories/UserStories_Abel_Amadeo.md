@@ -20,7 +20,7 @@ Als Spieler möchte ich die Möglichkeit haben, die Feldgrösse auszuswählen, d
 
 - [ ]  Feldgrösse muss implementiert werden mit Funktionen die gefordert sind
 
-- [ ]  Anzeige der Bomben für das jeweilige Schwierigkeitsgrad implementieren
+- [ ] Anzeige der Bomben für das jeweilige Schwierigkeitsgrad implementieren
 
 ---
 
@@ -186,7 +186,7 @@ Als Spieler möchte ich die Möglichkeit haben, Felder mit Flaggen zu markieren,
 
 **Tasks**
 
-- [ ]  Taste für das Markieren von Flaggen implementieren.
+- [ ] Taste für das Markieren von Flaggen implementieren.
 
 - [ ] Menubeschreibung der Regelung von der Taste der Flagge hinzufügen
 
@@ -210,7 +210,7 @@ Als Spieler möchte ich die anzahl übrigen Minen sehen, damit ich weiss wie vie
 
 **Tasks**
 
-- [ ]  Funktion erstellen die die Anzeige für die Anzahl der gesetzten Flaggen reduziert
+- [ ] Funktion erstellen die die Anzeige für die Anzahl der gesetzten Flaggen reduziert
 
 ---
 

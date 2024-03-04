@@ -10,6 +10,7 @@
 
         public void DoTurn(string coordinate)
         {
+            
 
         }
 
@@ -17,6 +18,7 @@
 
     public class Field
     {
+        public int anzahlMienenInDerNaehe;
 
     }
 }
