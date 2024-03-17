@@ -8,5 +8,6 @@ namespace Minesweeper_Abel_Amadeo
 {
     internal interface IDifficulty
     {
+        
     }
 }

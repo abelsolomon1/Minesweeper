@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Minesweeper_Abel_Amadeo
 {
-    internal class EasyMode
+    internal class EasyMode : IDifficulty
     {
+        
+
     }
 }

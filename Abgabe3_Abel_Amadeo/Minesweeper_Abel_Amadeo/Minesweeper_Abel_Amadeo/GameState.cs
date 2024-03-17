@@ -8,5 +8,21 @@ namespace Minesweeper_Abel_Amadeo
 {
     internal class GameState
     {
+
+        private string state;
+
+
+        public void IsPlaying()
+        {
+
+        }
+        public void IsPaused()
+        {
+
+        }
+        public void IsFinished()
+        {
+
+        }
     }
 }
