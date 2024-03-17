@@ -8,6 +8,8 @@ namespace Minesweeper_Abel_Amadeo
 {
     internal interface IDifficulty
     {
-        
+        int Width { get; set; }
+        int Height { get; set; }
+        int Mines { get; set; }
     }
 }

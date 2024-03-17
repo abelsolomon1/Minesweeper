@@ -6,7 +6,34 @@ using System.Threading.Tasks;
 
 namespace Minesweeper_Abel_Amadeo
 {
-    internal class MediumMode
+    internal class MediumMode : IDifficulty 
     {
+        //Properties vom Interface
+        public int Width { get; set; }
+        public int Height { get; set; }
+        public int Mines { get; set; }
+
+        //Konstruktor
+        public MediumMode(int width, int height, int mines)
+        {
+            Width = width;
+            Height = height;
+            Mines = mines;
+        }
+
+
+        public int GetWidth()
+        {
+            return Width;
+        }
+
+        public int GetHeight()
+        {
+            return Height;
+        }
+        public int GetMines()
+        {
+            return Mines;
+        }
     }
 }

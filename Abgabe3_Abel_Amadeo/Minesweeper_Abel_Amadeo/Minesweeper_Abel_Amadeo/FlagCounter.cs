@@ -10,17 +10,24 @@ namespace Minesweeper_Abel_Amadeo
     {
         private int count;
 
+        public FlagCounter(int totalFlags)
+        {
+            count = totalFlags;
+        }
+
         public void IncreaseCount()
         {
-
+            count++;
         }
+
         public void DecreaseCount()
         {
-
+            count--;
         }
-        public void getCount()
-        {
 
+        public int GetCount()
+        {
+            return count;
         }
     }
 }
