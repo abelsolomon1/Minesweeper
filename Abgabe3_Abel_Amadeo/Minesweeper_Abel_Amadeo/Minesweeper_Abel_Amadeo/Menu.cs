@@ -68,6 +68,7 @@ namespace Minesweeper_Abel_Amadeo
                 {
                     case "1":
                         return new EasyMode(8, 8, 10);
+                        
 
                     case "2":
                         return new MediumMode(16, 16, 40);

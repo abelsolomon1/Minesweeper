@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Minesweeper_Abel_Amadeo
 {
     internal class Field
-    {
+     {
         private bool isMine;
         private bool isFlagged;
         private bool isRevealed;
