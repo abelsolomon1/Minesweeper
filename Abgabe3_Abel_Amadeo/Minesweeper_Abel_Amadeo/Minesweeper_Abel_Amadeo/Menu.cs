@@ -52,34 +52,44 @@ namespace Minesweeper_Abel_Amadeo
             }
             
         }
-        public IDifficulty selectDifficulty()
+        public void selectDifficulty()
         {
             Console.WriteLine("Select Difficulty:");
-            while (true)
-            {
+            
+            
                 Console.WriteLine("1. Easy");
                 Console.WriteLine("2. Medium");
                 Console.WriteLine("3. Hard");
                 Console.Write("Please enter your Choice: ");
 
                 string input = Console.ReadLine();
+                Model model = new Model();
 
                 switch (input)
                 {
                     case "1":
-                        return new EasyMode(8, 8, 10);
+                        //return new EasyMode(8, 8, 10);
+                        model.InitFieldsEasyMode(); 
+                    break;
                         
 
                     case "2":
-                        return new MediumMode(16, 16, 40);
+                        // return new MediumMode(16, 16, 40);
+                        model.InitFieldsMediumMode();
+                        break;
 
                     case "3":
-                        return new HardMode(16, 30, 99);
+                       // return new HardMode(16, 30, 99);
+                       model.InitFieldsHardMode();
+                        break;
                     default:
                         Console.WriteLine("Invalid choice. Please enter a valid option");
                         break; 
-                }
-            }
+                        
+                    
+                        
+                
+                 }
             
         }
 
@@ -87,6 +97,7 @@ namespace Minesweeper_Abel_Amadeo
         public static readonly char RevealKey = 'r';
         public static readonly char FlagKey = 'f';
         public static readonly char UndoKey = 'u';
+        public static readonly char goBackKey = 'b';
 
         public void setKeyBinds()
         {

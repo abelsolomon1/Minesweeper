@@ -17,6 +17,21 @@ namespace Minesweeper_Abel_Amadeo
             Console.WriteLine("- Press 'u' to undo your last move if needed.\n");
             Console.WriteLine("Be careful not to reveal any mines, or it's GAME OVER!");
             Console.WriteLine("Keep track of the remaining mines by counting your flags.");
+
+            Console.WriteLine("Press b to go back to the Menu!");
+            Menu menu = new Menu();
+            string input = Console.ReadLine();
+
+            if (input[0] == 'b')
+            {
+                menu.ShowMenu();
+            }
+            else 
+            { 
+                Console.WriteLine("Invalid Input.");
+                input = Console.ReadLine();
+            }
         }
+
     }
 }
